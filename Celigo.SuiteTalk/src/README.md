@@ -27,9 +27,11 @@
    7.1 Update the namesapce URLs in `SuiteTalkSchemas.cs`.
 
    7.2 Update `SuiteTalkVersion` in `INetSuiteClient.cs`
+
 8. Add any missing classes or enums to `MissingReferences` directory
-   9Delete contents of the `<SolutionDir>\Celigo.SuiteTalk\src\SuiteTalk\Generated` folder.
 
-10Unload the `UnitTests` project.
+9. Delete contents of the `<SolutionDir>\Celigo.SuiteTalk\src\SuiteTalk\Generated` folder.
 
-11.Perform the build.
+10. Unload the `UnitTests` project.
+
+11. Perform the build.

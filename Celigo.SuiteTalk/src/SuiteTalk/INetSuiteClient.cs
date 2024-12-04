@@ -29,7 +29,7 @@ namespace SuiteTalk
         public SearchPreferences searchPreferences { get; set; }
         public PartnerInfo partnerInfo { get; set; }
 
-        public string SuiteTalkVersion { get { return "2021.2"; } }
+        public string SuiteTalkVersion { get { return "2024.2"; } }
         
         public virtual async Task<SearchResult> searchAsync(SearchRecord searchRecord, SearchPreferences searchPref)
         {
